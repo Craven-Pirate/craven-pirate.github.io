@@ -327,13 +327,69 @@ html[light-mode="dark"] .github-icon{
   100% { transform: rotate(-10deg); }
  }
 
+/*
+--------------------------
+   GMAIL MICROANIMATION
+--------------------------
+*/
+.gmail-icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 16px;
+  margin-top: 20px;
+  transition: transform 0.5s ease, margin-top 0.4s ease;
+}
+
+.gmail:hover .gmail-icon {
+  animation: gmail-bounce 0.6s ease infinite;
+  transform: rotate(360deg);
+}
+
+@keyframes gmail-bounce {
+  0%, 100% {
+      margin-top: 20px;
+  }
+  50% {
+      margin-top: 15px;
+  }
+}
+
+
+/*
+--------------------------
+   WHATSAPP MICROANIMATION
+--------------------------
+*/
+.whatsapp-icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 16px;
+  margin-top: 20px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.whatsapp:hover .whatsapp-icon {
+  animation: wobble 1s ease infinite;
+}
+
+@keyframes wobble {
+  0% { transform: translateX(0%) skew(0deg); } 
+  15% { transform: translateX(-25%) skew(-5deg); } 
+  30% { transform: translateX(20%) skew(3deg); } 
+  45% { transform: translateX(-15%) skew(-3deg); } 
+  60% { transform: translateX(10%) skew(2deg); }
+  75% { transform: translateX(-5%) skew(-1deg); }
+  100% { transform: translateX(0%) skew(0deg); } 
+}
+
+
  /*
   --------------------------
      DRIBBBLE MICROANIMATION
   --------------------------
   */
   
-  .dribbble-icon{
+ .dribbble-icon{
     width: 30px;
     height: 30px;
     margin-left:16px;
@@ -357,7 +413,7 @@ html[light-mode="dark"] .github-icon{
     75%{
       margin-top: 15px;
     }
-  }
+  } 
   
   /*
   --------------------------
