@@ -293,7 +293,7 @@ html[light-mode="dark"] {
 }
 
 .dark-theme {
-  background-color: #2b2a2A;
+  background-color: #353434;
   transition: background-color .3s;
   box-shadow: 0 0 0;
 }
@@ -626,6 +626,7 @@ Rotate Transition in foote Soical Icon
 }
 
 
+
 /*
 -----------------------------
  INSTAGRAM MICROANIMATION
@@ -742,48 +743,48 @@ Rotate Transition in foote Soical Icon
 */
 
 .rounded-social-buttons .social-button.twitter {
-  background: #2b2a2A;
+  background: #353434;
   box-shadow: 10px 10px 5px rgb(0 0 0 / 20%);
 }
 
 .rounded-social-buttons .social-button.twitter:hover,
 .rounded-social-buttons .social-button.twitter:focus {
   color: #000;
-  background: #2b2a2A;
+  background: #353434;
 }
 
 .rounded-social-buttons .social-button.linkedin {
-  background: #2b2a2A;
+  background: #353434;
   box-shadow: 10px 10px 5px rgb(0 0 0 / 20%);
 }
 
 .rounded-social-buttons .social-button.linkedin:hover,
 .rounded-social-buttons .social-button.linkedin:focus {
   color: #000;
-  background: #2b2a2A;
+  background: #353434;
 }
 
 .rounded-social-buttons .social-button.instagram {
-  background: #2b2a2A;
+  background: #353434;
   box-shadow: 10px 10px 5px rgb(0 0 0 / 20%);
 }
 
 .rounded-social-buttons .social-button.instagram:hover,
 .rounded-social-buttons .social-button.instagram:focus {
   color: #000;
-  background: #2b2a2A;
+  background: #353434;
 }
 
 .rounded-social-buttons .social-button.github {
   fill: #ffff;
-  background: #2b2a2A;
+  background: #353434;
   box-shadow: 10px 10px 5px rgb(0 0 0 / 20%);
 }
 
 .rounded-social-buttons .social-button.github:hover,
 .rounded-social-buttons .social-button.github:focus {
   color: #000000;
-  background: #2b2a2A;
+  background: #353434;
 }
 
 
