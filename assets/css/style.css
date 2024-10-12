@@ -1,8 +1,9 @@
+/*
 @font-face {
   font-family: "Agustina";
   src: url(../fonts/Agustina.woff);
 }
-
+*/
 
 /*CSS variable declaration for light/dark mode*/
 
@@ -229,10 +230,18 @@ html {
 }
 
 .navbar-brand {
+  font-family: 'Ms Madi', cursive;
+  font-size: 30px;
+  font-weight: bold; /* or adjust as needed */
+}
+
+/*
+.navbar-brand {
   font-family: Agustina;
   font-size: 30px;
   font-weight: bold;
 }
+  */
 
 .navbar {
   color: #000000;
@@ -625,6 +634,32 @@ Rotate Transition in foote Soical Icon
   }
 }
 
+/*
+--------------------------
+   GMAIL MICROANIMATION
+--------------------------
+*/
+.gmail-icon {
+  width: 40px; /* Adjusted width */
+  height: 40px; /* Adjusted height */
+  margin-left: 16px;
+  margin-top: 20px;
+  transition: transform 0.5s ease, margin-top 0.4s ease;
+}
+
+.gmail:hover .gmail-icon {
+  animation: gmail-bounce 0.6s ease infinite;
+  transform: rotate(360deg);
+}
+
+@keyframes gmail-bounce {
+  0%, 100% {
+    margin-top: 20px;
+  }
+  50% {
+    margin-top: 15px;
+  }
+}
 
 
 /*
@@ -773,6 +808,18 @@ Rotate Transition in foote Soical Icon
 .rounded-social-buttons .social-button.instagram:focus {
   color: #000;
   background: #353434;
+}
+
+
+.rounded-social-buttons .social-button.gmail {
+  background: #353434; /* Background color, same as Instagram */
+  box-shadow: 10px 10px 5px rgb(0 0 0 / 20%);
+}
+
+.rounded-social-buttons .social-button.gmail:hover,
+.rounded-social-buttons .social-button.gmail:focus {
+  color: #000;
+  background: #353434; /* Background color remains the same on hover/focus */
 }
 
 .rounded-social-buttons .social-button.github {
