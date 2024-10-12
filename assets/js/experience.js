@@ -4,20 +4,32 @@ AOS.init();
 
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
-  {
-    title: "Single Security Analytics - Intern",
-    cardImage: "assets/images/experience-page/blk_logo.png",
-    place: "Core Analytics Solutions - BlackRock",
-    time: "(May, 2024 - July, 2024)",
-    desp: "<li>Created a proprietary predictive model for improving the analytics for Treasury Futures in Aladdin using data from the exchanges</li> <li>Rectified key analytics like duration & CTD in real time for 80+ Treasury Futures from 5 different exchanges covering 90% global liquidity</li> <li>Engineered and automated cutting-edge analytics workflows, significantly optimizing daily performance insights and boosting profitability for portfolio managers</li>",
-  },
-  {
-    title: "Quantitative Risk - Intern",
-    cardImage: "assets/images/experience-page/ubi_logo.png",
-    place: "Risk Management Department - Union Bank of India",
-    time: "(May, 2023 - July, 2023)",
-    desp: "<li>Tasked with evaluating the broad spatial-temporal impact of transition risk on seven sectors in the credit portfolio in the long run</li><li>Designed 6 scenarios prescribed by NGFS incorporating 1200+ different climate-based input variables using GCAM and IIASA data</li><li>Measured radical transformation of impact on probability of default in the range of 4 - 520 basis points across sectors and scenarios</li>",
-  },
+    {
+      title: "Single Security Analytics - Intern",
+      cardImage: "assets/images/experience-page/blk_logo.png",
+      place: "Core Analytics Solutions - BlackRock",
+      time: "(May, 2024 - July, 2024)",
+      desp: `
+        <ul style="list-style-type: none; padding: 0; text-align: center;">
+          <li style="text-indent: -1.5em; padding-left: 1.5em;">&#9733; Created a proprietary predictive model for improving the analytics for Treasury Futures in Aladdin using data from the exchanges</li>
+          <li style="text-indent: -1.5em; padding-left: 1.5em;">&#9733; Rectified key analytics like duration & CTD in real time for 80+ Treasury Futures from 5 different exchanges covering 90% global liquidity</li>
+          <li style="text-indent: -1.5em; padding-left: 1.5em;">&#9733; Engineered and automated cutting-edge analytics workflows, significantly optimizing daily performance insights and boosting profitability for portfolio managers</li>
+        </ul>
+      `,
+    },
+    {
+      title: "Quantitative Risk - Intern",
+      cardImage: "assets/images/experience-page/ubi_logo.png",
+      place: "Risk Management Department - Union Bank of India",
+      time: "(May, 2023 - July, 2023)",
+      desp: `
+        <ul style="list-style-type: none; padding: 0; text-align: center;">
+          <li style="text-indent: -1.5em; padding-left: 1.5em;">&#9733; Tasked with evaluating the broad spatial-temporal impact of transition risk on seven sectors in the credit portfolio in the long run</li>
+          <li style="text-indent: -1.5em; padding-left: 1.5em;">&#9733; Designed 6 scenarios prescribed by NGFS incorporating 1200+ different climate-based input variables using GCAM and IIASA data</li>
+          <li style="text-indent: -1.5em; padding-left: 1.5em;">&#9733; Measured radical transformation of impact on probability of default in the range of 4 - 520 basis points across sectors and scenarios</li>
+        </ul>
+      `,
+    },
   // {
   //   title: "Research Intern",
   //   cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
