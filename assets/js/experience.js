@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "LSTM Network for Stock Prediction",
+    title: "LSTM Network Model for Stock Prediction",
     cardImage: "assets/images/experience-page/lstm.png",
     description:
       "ML model that generates signals of emerging buy and sell zones using historical data of stocks",
