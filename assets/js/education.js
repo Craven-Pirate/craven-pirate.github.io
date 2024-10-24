@@ -40,14 +40,14 @@ document.addEventListener("DOMContentLoaded", showCards);
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
-    title: "Data Science",
+    title: "Intro to Programming",
     cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/browse/data-science",
+    moocLink: "https://www.kaggle.com/learn/certification/bharathhegde2002/intro-to-programming",
   },
   {
-    title: "Cryptography",
+    title: "Intro to Machine Learning",
     cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
+    moocLink: "https://www.kaggle.com/learn/certification/bharathhegde2002/intro-to-machine-learning",
   },
   {
     title: "Machine Learning",
