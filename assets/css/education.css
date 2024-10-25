@@ -39,7 +39,7 @@ html {
 /* download Cv section */
 
 .download-cv {
-  position: fixed;
+  position: absolute;
   top: 150px; /* Adjust this to be right below your navbar */
   right: 20px;
   z-index: 1000; /* Keeps it above other elements */
@@ -268,6 +268,10 @@ html {
   line-height: 1.35;
   padding-bottom: 40px;
   color: var(--head-col);
+}
+
+.heading1 {
+  margin-top: 20px; /* Adjust this value for more or less spacing */
 }
 
 /*properties for online accreditaions(MOOCS) heading*/
@@ -576,7 +580,7 @@ header p {
   content: "";
   background: #46529d;
   width: 5px;
-  height: 80%;
+  height: 90%;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
