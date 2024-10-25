@@ -95,6 +95,29 @@ section > div {
   font-weight: bold;
 }
 
+/* download Cv section */
+
+.download-cv {
+  position: absolute;
+  top: 125px; /* Adjust this to be right below your navbar */
+  right: 20px; /* Keeps it above other elements */
+  z-index: 0;
+}
+
+.download-cv .btn {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #6617cb; /* Change this to your desired background color */
+  color: #ffffff; /* Change this to your desired text color */
+  border: none; /* Remove border if desired */
+  border-radius: 0.25rem; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.download-cv .btn:hover {
+  background-color: #4b0a9a; /* Change this to your desired hover background color */
+}
+
 /*color of experience page headings*/
 .my_experience {
   color: #bb0000;
