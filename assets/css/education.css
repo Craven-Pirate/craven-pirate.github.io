@@ -41,7 +41,7 @@ html {
 .download-cv {
   position: absolute;
   top: 125px; /* Adjust this to be right below your navbar */
-  left: 20px; /* Keeps it above other elements */
+  right: 20px; /* Keeps it above other elements */
   z-index: 0;
 }
 
@@ -344,7 +344,7 @@ p {
   width: 100%;
   padding: 10px;
   margin: auto;
-  overflow: hidden;
+  /* overflow: hidden; */
   height: 75%;
 }
 .content .content-overlay {
@@ -356,7 +356,7 @@ p {
   top: 0;
   bottom: 0;
   right: 0;
-  opacity: 0;
+  opacity: 1;
   -webkit-transition: all 0.4s ease-in-out 0s;
   -moz-transition: all 0.4s ease-in-out 0s;
   transition: all 0.4s ease-in-out 0s;
