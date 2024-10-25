@@ -300,15 +300,6 @@ h4 {
 .card {
   background-color: var(--bg1-color);
 }
-
-.card img {
-  height: auto; /* Maintain aspect ratio */
-  width: 100%; /* Ensure full width */
-  display: block; /* Ensure no whitespace beneath images */
-  transition: opacity 0.3s ease; /* Add transition for opacity */
-}
-
-
 .s2 .card img {
   height: 90%;
   width: 90%;
@@ -344,7 +335,7 @@ p {
   width: 100%;
   padding: 10px;
   margin: auto;
-  /* overflow: hidden; */
+  overflow: hidden;
   height: 75%;
 }
 .content .content-overlay {
@@ -356,13 +347,13 @@ p {
   top: 0;
   bottom: 0;
   right: 0;
-  opacity: 1;
+  opacity: 0;
   -webkit-transition: all 0.4s ease-in-out 0s;
   -moz-transition: all 0.4s ease-in-out 0s;
   transition: all 0.4s ease-in-out 0s;
 }
 .content:hover .content-overlay {
-  opacity: 0.9;
+  opacity: 0.8;
 }
 .content-details {
   position: absolute;
@@ -370,7 +361,7 @@ p {
   width: 100%;
   left: 50%;
   top: 50%;
-  opacity: 0.75;
+  opacity: 0;
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
