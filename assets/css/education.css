@@ -106,7 +106,7 @@ html {
   font-weight: bold;
 } 
 
-/*Volunteership card*/
+/* Volunteership card */
 
 :root {
   --d: 700ms;
@@ -241,7 +241,7 @@ html {
   font-size: 14px;
 }
 
-.content {
+.xcontent {
   position: relative;
   display: flex;
   flex-direction: column;
