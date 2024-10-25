@@ -36,6 +36,20 @@ html {
   font-weight: bold;
 }
 
+/* download Cv section */
+
+.download-cv {
+  position: fixed;
+  top: 60px; /* Adjust this to be right below your navbar */
+  right: 20px;
+  z-index: 1000; /* Keeps it above other elements */
+}
+
+.download-cv .btn {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+
 /*color of education page heading*/
 
 .edu_background {
@@ -320,13 +334,13 @@ p {
   top: 0;
   bottom: 0;
   right: 0;
-  opacity: 0;
+  opacity: 0.75;
   -webkit-transition: all 0.4s ease-in-out 0s;
   -moz-transition: all 0.4s ease-in-out 0s;
   transition: all 0.4s ease-in-out 0s;
 }
 .content:hover .content-overlay {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 .content-details {
   position: absolute;
@@ -551,7 +565,7 @@ header p {
 /* Draws line */
 .timeline::before {
   content: "";
-  background: #C5CAE9;
+  background: #46529d;
   width: 5px;
   height: 95%;
   position: absolute;
