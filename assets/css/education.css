@@ -41,7 +41,7 @@ html {
 .download-cv {
   position: relative;
   top: 125px; /* Adjust this to be right below your navbar */
-  right: 20px;
+  margin-left: auto;
   z-index: 1000; /* Keeps it above other elements */
 }
 
