@@ -82,8 +82,7 @@ const moocscards = [
   {
     title: "Intro to React Native",
     cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink:
-      "https://www.coursera.org/lecture/react-native/introduction-to-react-native-Eax0D",
+    moocLink: "https://www.coursera.org/lecture/react-native/introduction-to-react-native-Eax0D",
   },
   {
     title: "NodeJS, Express and MongoDB",
@@ -98,8 +97,7 @@ const moocscards = [
   {
     title: "Data Structures & Algorithms",
     cardImage: "assets/images/education-page/udacity.svg",
-    moocLink:
-      "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
+    moocLink: "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
   },
 ];
 
