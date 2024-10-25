@@ -15,7 +15,7 @@ const volunteershipcards = [
   },
 ];
 
-const showCards = () => {
+const showPCCards = () => {
   let output = "";
   volunteershipcards.forEach(
     ({ title, cardImage, description }) =>
@@ -32,7 +32,7 @@ const showCards = () => {
   );
   volunteership.innerHTML = output;
 };
-document.addEventListener("DOMContentLoaded", showCards);
+document.addEventListener("DOMContentLoaded", showPCCards);
 
 
 // MOOCs Cards
