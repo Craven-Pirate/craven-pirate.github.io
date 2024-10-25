@@ -271,7 +271,7 @@ html {
 }
 
 .heading1 {
-  margin-top: 10px; /* Adjust this value for more or less spacing */
+  margin-top: 15px; /* Adjust this value for more or less spacing */
 }
 
 /*properties for online accreditaions(MOOCS) heading*/
@@ -347,7 +347,7 @@ p {
   top: 0;
   bottom: 0;
   right: 0;
-  opacity: 0.75;
+  opacity: 0;
   -webkit-transition: all 0.4s ease-in-out 0s;
   -moz-transition: all 0.4s ease-in-out 0s;
   transition: all 0.4s ease-in-out 0s;
@@ -580,7 +580,7 @@ header p {
   content: "";
   background: #46529d;
   width: 5px;
-  height: 95%;
+  height: 92%;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
