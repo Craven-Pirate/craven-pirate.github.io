@@ -33,6 +33,29 @@ body {
   font-weight: bold;
 }
 
+/* download Cv section */
+
+.download-cv {
+  position: absolute;
+  top: 125px; /* Adjust this to be right below your navbar */
+  right: 20px; /* Keeps it above other elements */
+  z-index: 0;
+}
+
+.download-cv .btn {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #6617cb; /* Change this to your desired background color */
+  color: #ffffff; /* Change this to your desired text color */
+  border: none; /* Remove border if desired */
+  border-radius: 0.25rem; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.download-cv .btn:hover {
+  background-color: #4b0a9a; /* Change this to your desired hover background color */
+}
+
 /*color of projects page heading*/
 
 .my_projects {
@@ -220,16 +243,21 @@ a:hover {
 }
 
 .card .title-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
-  height: 35%;
+  height: 30%;
   margin: 0;
 }
 
 .card .title {
   padding-bottom: 2rem;
+  text-align: center;
   margin-top: 0em;
   font-size: 0.65em;
 }
+
 
 @media (min-width: 411px) {
   .card .title {
@@ -365,6 +393,41 @@ input[type="text"] {
 .skill-card .title a {
   color: #fff;
 }
+
+/* project tabs */
+.project-tabs .nav-tabs {
+    border-bottom: 2px solid #6617cb;
+}
+.project-tabs .nav-link {
+    color: #bb0000;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+.project-tabs .nav-link.active {
+    color: #ffffff;
+    background-color: #6617cb;
+    border-color: #007bff;
+    font-size: 1.25em;
+}
+
+
+/* Hide description by default */
+.description-overlay {
+  position: absolute;
+  top: 40%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card:hover .description-overlay {
+  opacity: 1;
+}
+
 
 /*social icons*/
 

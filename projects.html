@@ -70,7 +70,11 @@
             <div class="electron-omega"></div>
 		</div>
    </div>
-add 
+
+  <div class="download-cv">
+    <a href="assets/Bharath_Hegde_CV_IIT_KGP.pdf" download="Bharath_Resume.pdf" class="btn btn-primary">View CV</a>
+  </div>
+
 
     <div class="container pt-5" style="width: 100%; min-height: 80%">
         <section style="height: 70vh">
@@ -296,6 +300,9 @@ add
                 </g>
               </svg>
                     </div>
+
+
+                    
                     <div class="dropdown col-md-6 d-flex mt-5 flex-column text-center justify-content-center animate__animated animate__zoomIn animate__delay-1s">
                         <h2 class="main-heading mb-0 projects_head">My <span class="my_projects">Projects</span></h2>
                         <br/>
@@ -309,11 +316,43 @@ add
         </section>
     </div>
 
-    <div class="project-box" style="padding: 20px;">
-        <div class="row page-content projectcards">
-            <!-- Dynamic project card -->
+
+    <div class="project-tabs text-center mt-5">
+      <ul class="nav nav-tabs justify-content-center" id="projectTabs" role="tablist">
+          <li class="nav-item">
+              <a class="nav-link active" id="personal-projects-tab" data-toggle="tab" href="#personal-projects" role="tab" aria-controls="personal-projects" aria-selected="true">Personal Projects</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" id="following-projects-tab" data-toggle="tab" href="#following-projects" role="tab" aria-controls="following-projects" aria-selected="false">Projects I’m Following</a>
+          </li>
+      </ul>
+
+        <!-- Tab content areas -->
+      <div class="tab-content" id="projectTabContent">  
+
+      <!-- Personal Projects Tab-->
+        <div class="tab-pane fade show active" id="personal-projects" role="tabpanel" aria-labelledby="personal-projects-tab">
+        <div class="project-box" style="padding: 20px;">
+            <div class="row page-content projectcards">
+                <!-- Dynamic project card -->
+            </div>
         </div>
-    </div>
+      </div>
+
+
+
+          <!-- Projects I’m Following Tab -->
+          <div class="tab-pane fade" id="following-projects" role="tabpanel" aria-labelledby="following-projects-tab">
+            <div class="project-box" style="padding: 20px;">
+              <div class="row page-content projectcardsx">
+                <!-- Following Projects Content Here -->
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
 
      <!--Cursor-->
      <div class="cursor-dot-outline"></div>
