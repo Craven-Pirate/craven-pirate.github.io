@@ -41,12 +41,12 @@ const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
     title: "Intro to Programming",
-    cardImage: "assets/images/education-page/coursera2.svg",
+    cardImage: "assets/images/education-page/kaggle.png",
     moocLink: "https://www.kaggle.com/learn/certification/bharathhegde2002/intro-to-programming",
   },
   {
     title: "Intro to Machine Learning",
-    cardImage: "assets/images/education-page/udemy.svg",
+    cardImage: "assets/images/education-page/kaggle.png",
     moocLink: "https://www.kaggle.com/learn/certification/bharathhegde2002/intro-to-machine-learning",
   },
   {
